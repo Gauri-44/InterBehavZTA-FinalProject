@@ -1,0 +1,92 @@
+{
+  "timestamp": "2026-10-06T12:26:22.235457",
+  "user_id": 70,
+  "user_email": "vaishalikorgaonkar22@gmail.com",
+  "n_observations": 40,
+  "events": [
+    {
+      "start_index": 15,
+      "start_trust": 0.8153577243386488,
+      "min_index": 36,
+      "min_trust": 0.07072001075999437,
+      "recovered_index": null,
+      "recovered_trust": null,
+      "recovery_seconds": null,
+      "impact": 0.7446377135786545,
+      "windows_to_step_up": 1,
+      "windows_to_deny": 5
+    },
+    {
+      "start_index": 16,
+      "start_trust": 0.6957987368189095,
+      "min_index": 36,
+      "min_trust": 0.07072001075999437,
+      "recovered_index": null,
+      "recovered_trust": null,
+      "recovery_seconds": null,
+      "impact": 0.6250787260589151,
+      "windows_to_step_up": 0,
+      "windows_to_deny": 4
+    },
+    {
+      "start_index": 17,
+      "start_trust": 0.589618337858513,
+      "min_index": 36,
+      "min_trust": 0.07072001075999437,
+      "recovered_index": null,
+      "recovered_trust": null,
+      "recovery_seconds": null,
+      "impact": 0.5188983270985187,
+      "windows_to_step_up": 0,
+      "windows_to_deny": 3
+    },
+    {
+      "start_index": 18,
+      "start_trust": 0.4990313264360206,
+      "min_index": 36,
+      "min_trust": 0.07072001075999437,
+      "recovered_index": null,
+      "recovered_trust": null,
+      "recovery_seconds": null,
+      "impact": 0.4283113156760262,
+      "windows_to_step_up": 0,
+      "windows_to_deny": 2
+    },
+    {
+      "start_index": 19,
+      "start_trust": 0.4224158234557562,
+      "min_index": 36,
+      "min_trust": 0.07072001075999437,
+      "recovered_index": null,
+      "recovered_trust": null,
+      "recovery_seconds": null,
+      "impact": 0.3516958126957618,
+      "windows_to_step_up": 0,
+      "windows_to_deny": 1
+    },
+    {
+      "start_index": 20,
+      "start_trust": 0.35752608646385325,
+      "min_index": 36,
+      "min_trust": 0.07072001075999437,
+      "recovered_index": null,
+      "recovered_trust": null,
+      "recovery_seconds": null,
+      "impact": 0.28680607570385885,
+      "windows_to_step_up": 0,
+      "windows_to_deny": 0
+    },
+    {
+      "start_index": 27,
+      "start_trust": 0.2769931317143942,
+      "min_index": 36,
+      "min_trust": 0.07072001075999437,
+      "recovered_index": null,
+      "recovered_trust": null,
+      "recovery_seconds": null,
+      "impact": 0.20627312095439984,
+      "windows_to_step_up": 0,
+      "windows_to_deny": 0
+    }
+  ]
+}

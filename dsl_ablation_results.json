@@ -1,0 +1,2349 @@
+{
+  "timestamp": "2026-10-06T08:32:12.795283",
+  "protocol": {
+    "enroll": 200,
+    "val": 100,
+    "test_genuine": 100,
+    "test_impostor": 100,
+    "random_seed": 42
+  },
+  "per_user": [
+    {
+      "user": "dsl_s002@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.31,
+          "far": 0.31,
+          "frr": 0.31,
+          "threshold": 0.45549290278648014,
+          "accuracy": 0.69,
+          "precision": 0.69,
+          "recall": 0.69,
+          "f1": 0.69
+        },
+        "svm_only": {
+          "eer": 0.31,
+          "far": 0.31,
+          "frr": 0.31,
+          "threshold": 0.6663863109538442,
+          "accuracy": 0.69,
+          "precision": 0.69,
+          "recall": 0.69,
+          "f1": 0.69
+        },
+        "lstm_only": {
+          "eer": 0.47,
+          "far": 0.41,
+          "frr": 0.53,
+          "threshold": 0.14045478600085104,
+          "accuracy": 0.53,
+          "precision": 0.5340909090909091,
+          "recall": 0.47,
+          "f1": 0.5
+        },
+        "uncalibrated": {
+          "eer": 0.48,
+          "far": 0.48,
+          "frr": 0.48,
+          "threshold": -0.14343358811884865,
+          "accuracy": 0.52,
+          "precision": 0.52,
+          "recall": 0.52,
+          "f1": 0.52
+        }
+      }
+    },
+    {
+      "user": "dsl_s003@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.28500000000000003,
+          "far": 0.37,
+          "frr": 0.2,
+          "threshold": 0.5094890829235608,
+          "accuracy": 0.715,
+          "precision": 0.6837606837606838,
+          "recall": 0.8,
+          "f1": 0.7373271889400922
+        },
+        "svm_only": {
+          "eer": 0.165,
+          "far": 0.05,
+          "frr": 0.28,
+          "threshold": 0.75,
+          "accuracy": 0.835,
+          "precision": 0.935064935064935,
+          "recall": 0.72,
+          "f1": 0.8135593220338982
+        },
+        "lstm_only": {
+          "eer": 0.455,
+          "far": 0.4,
+          "frr": 0.51,
+          "threshold": 0.15056951136454227,
+          "accuracy": 0.545,
+          "precision": 0.550561797752809,
+          "recall": 0.49,
+          "f1": 0.5185185185185186
+        },
+        "uncalibrated": {
+          "eer": 0.45,
+          "far": 0.45,
+          "frr": 0.45,
+          "threshold": -0.19650466928737897,
+          "accuracy": 0.55,
+          "precision": 0.55,
+          "recall": 0.55,
+          "f1": 0.55
+        }
+      }
+    },
+    {
+      "user": "dsl_s004@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.22999999999999998,
+          "far": 0.1,
+          "frr": 0.36,
+          "threshold": 0.5059858305443409,
+          "accuracy": 0.77,
+          "precision": 0.8648648648648649,
+          "recall": 0.64,
+          "f1": 0.7356321839080459
+        },
+        "svm_only": {
+          "eer": 0.21999999999999997,
+          "far": 0.09,
+          "frr": 0.35,
+          "threshold": 0.7465644433312093,
+          "accuracy": 0.78,
+          "precision": 0.8783783783783784,
+          "recall": 0.65,
+          "f1": 0.7471264367816092
+        },
+        "lstm_only": {
+          "eer": 0.42000000000000004,
+          "far": 0.53,
+          "frr": 0.31,
+          "threshold": 0.15254712036123794,
+          "accuracy": 0.58,
+          "precision": 0.5655737704918032,
+          "recall": 0.69,
+          "f1": 0.6216216216216215
+        },
+        "uncalibrated": {
+          "eer": 0.48,
+          "far": 0.47,
+          "frr": 0.49,
+          "threshold": -0.1643336021793539,
+          "accuracy": 0.52,
+          "precision": 0.5204081632653061,
+          "recall": 0.51,
+          "f1": 0.5151515151515151
+        }
+      }
+    },
+    {
+      "user": "dsl_s005@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.25,
+          "far": 0.24,
+          "frr": 0.26,
+          "threshold": 0.5030714164584763,
+          "accuracy": 0.75,
+          "precision": 0.7551020408163265,
+          "recall": 0.74,
+          "f1": 0.7474747474747474
+        },
+        "svm_only": {
+          "eer": 0.15,
+          "far": 0.06,
+          "frr": 0.24,
+          "threshold": 0.75,
+          "accuracy": 0.85,
+          "precision": 0.926829268292683,
+          "recall": 0.76,
+          "f1": 0.8351648351648352
+        },
+        "lstm_only": {
+          "eer": 0.605,
+          "far": 0.64,
+          "frr": 0.57,
+          "threshold": 0.1389661530836454,
+          "accuracy": 0.395,
+          "precision": 0.40186915887850466,
+          "recall": 0.43,
+          "f1": 0.41545893719806765
+        },
+        "uncalibrated": {
+          "eer": 0.395,
+          "far": 0.41,
+          "frr": 0.38,
+          "threshold": -0.18169218473207893,
+          "accuracy": 0.605,
+          "precision": 0.6019417475728155,
+          "recall": 0.62,
+          "f1": 0.6108374384236454
+        }
+      }
+    },
+    {
+      "user": "dsl_s007@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.21,
+          "far": 0.21,
+          "frr": 0.21,
+          "threshold": 0.49270235390856376,
+          "accuracy": 0.79,
+          "precision": 0.79,
+          "recall": 0.79,
+          "f1": 0.79
+        },
+        "svm_only": {
+          "eer": 0.2,
+          "far": 0.2,
+          "frr": 0.2,
+          "threshold": 0.7007537688442211,
+          "accuracy": 0.8,
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8000000000000002
+        },
+        "lstm_only": {
+          "eer": 0.245,
+          "far": 0.28,
+          "frr": 0.21,
+          "threshold": 0.17016658925464787,
+          "accuracy": 0.755,
+          "precision": 0.7383177570093458,
+          "recall": 0.79,
+          "f1": 0.7632850241545893
+        },
+        "uncalibrated": {
+          "eer": 0.485,
+          "far": 0.47,
+          "frr": 0.5,
+          "threshold": -0.23226385868694455,
+          "accuracy": 0.515,
+          "precision": 0.5154639175257731,
+          "recall": 0.5,
+          "f1": 0.5076142131979695
+        }
+      }
+    },
+    {
+      "user": "dsl_s008@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.245,
+          "far": 0.25,
+          "frr": 0.24,
+          "threshold": 0.4912928904502477,
+          "accuracy": 0.755,
+          "precision": 0.7524752475247525,
+          "recall": 0.76,
+          "f1": 0.7562189054726369
+        },
+        "svm_only": {
+          "eer": 0.25,
+          "far": 0.25,
+          "frr": 0.25,
+          "threshold": 0.7183417085427135,
+          "accuracy": 0.75,
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75
+        },
+        "lstm_only": {
+          "eer": 0.325,
+          "far": 0.39,
+          "frr": 0.26,
+          "threshold": 0.15753263490260047,
+          "accuracy": 0.675,
+          "precision": 0.6548672566371682,
+          "recall": 0.74,
+          "f1": 0.6948356807511737
+        },
+        "uncalibrated": {
+          "eer": 0.515,
+          "far": 0.51,
+          "frr": 0.52,
+          "threshold": -0.1647262443877171,
+          "accuracy": 0.485,
+          "precision": 0.48484848484848486,
+          "recall": 0.48,
+          "f1": 0.4824120603015075
+        }
+      }
+    },
+    {
+      "user": "dsl_s010@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.175,
+          "far": 0.21,
+          "frr": 0.14,
+          "threshold": 0.5197655326241608,
+          "accuracy": 0.825,
+          "precision": 0.8037383177570093,
+          "recall": 0.86,
+          "f1": 0.8309178743961353
+        },
+        "svm_only": {
+          "eer": 0.145,
+          "far": 0.05,
+          "frr": 0.24,
+          "threshold": 0.7464904652183836,
+          "accuracy": 0.855,
+          "precision": 0.9382716049382716,
+          "recall": 0.76,
+          "f1": 0.8397790055248618
+        },
+        "lstm_only": {
+          "eer": 0.22,
+          "far": 0.22,
+          "frr": 0.22,
+          "threshold": 0.17760073825600367,
+          "accuracy": 0.78,
+          "precision": 0.78,
+          "recall": 0.78,
+          "f1": 0.78
+        },
+        "uncalibrated": {
+          "eer": 0.405,
+          "far": 0.41,
+          "frr": 0.4,
+          "threshold": -0.10638442838426787,
+          "accuracy": 0.595,
+          "precision": 0.594059405940594,
+          "recall": 0.6,
+          "f1": 0.5970149253731343
+        }
+      }
+    },
+    {
+      "user": "dsl_s011@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.18,
+          "far": 0.15,
+          "frr": 0.21,
+          "threshold": 0.5114629320863745,
+          "accuracy": 0.82,
+          "precision": 0.8404255319148937,
+          "recall": 0.79,
+          "f1": 0.8144329896907218
+        },
+        "svm_only": {
+          "eer": 0.16,
+          "far": 0.11,
+          "frr": 0.21,
+          "threshold": 0.75,
+          "accuracy": 0.84,
+          "precision": 0.8777777777777778,
+          "recall": 0.79,
+          "f1": 0.831578947368421
+        },
+        "lstm_only": {
+          "eer": 0.305,
+          "far": 0.36,
+          "frr": 0.25,
+          "threshold": 0.16447770985979102,
+          "accuracy": 0.695,
+          "precision": 0.6756756756756757,
+          "recall": 0.75,
+          "f1": 0.7109004739336493
+        },
+        "uncalibrated": {
+          "eer": 0.44,
+          "far": 0.44,
+          "frr": 0.44,
+          "threshold": -0.05456986262837704,
+          "accuracy": 0.56,
+          "precision": 0.56,
+          "recall": 0.56,
+          "f1": 0.56
+        }
+      }
+    },
+    {
+      "user": "dsl_s012@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.3,
+          "far": 0.3,
+          "frr": 0.3,
+          "threshold": 0.5071360292272808,
+          "accuracy": 0.7,
+          "precision": 0.7,
+          "recall": 0.7,
+          "f1": 0.7
+        },
+        "svm_only": {
+          "eer": 0.165,
+          "far": 0.02,
+          "frr": 0.31,
+          "threshold": 0.722613336455108,
+          "accuracy": 0.835,
+          "precision": 0.971830985915493,
+          "recall": 0.69,
+          "f1": 0.8070175438596492
+        },
+        "lstm_only": {
+          "eer": 0.48,
+          "far": 0.41,
+          "frr": 0.55,
+          "threshold": 0.14696936700716406,
+          "accuracy": 0.52,
+          "precision": 0.5232558139534884,
+          "recall": 0.45,
+          "f1": 0.48387096774193555
+        },
+        "uncalibrated": {
+          "eer": 0.4,
+          "far": 0.4,
+          "frr": 0.4,
+          "threshold": -0.015146124361111735,
+          "accuracy": 0.6,
+          "precision": 0.6,
+          "recall": 0.6,
+          "f1": 0.6
+        }
+      }
+    },
+    {
+      "user": "dsl_s013@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.175,
+          "far": 0.17,
+          "frr": 0.18,
+          "threshold": 0.5139492366268003,
+          "accuracy": 0.825,
+          "precision": 0.8282828282828283,
+          "recall": 0.82,
+          "f1": 0.8241206030150754
+        },
+        "svm_only": {
+          "eer": 0.195,
+          "far": 0.11,
+          "frr": 0.28,
+          "threshold": 0.75,
+          "accuracy": 0.805,
+          "precision": 0.8674698795180723,
+          "recall": 0.72,
+          "f1": 0.7868852459016394
+        },
+        "lstm_only": {
+          "eer": 0.265,
+          "far": 0.29,
+          "frr": 0.24,
+          "threshold": 0.16850485711672694,
+          "accuracy": 0.735,
+          "precision": 0.7238095238095238,
+          "recall": 0.76,
+          "f1": 0.7414634146341463
+        },
+        "uncalibrated": {
+          "eer": 0.44,
+          "far": 0.44,
+          "frr": 0.44,
+          "threshold": -0.16148353105133628,
+          "accuracy": 0.56,
+          "precision": 0.56,
+          "recall": 0.56,
+          "f1": 0.56
+        }
+      }
+    },
+    {
+      "user": "dsl_s015@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.195,
+          "far": 0.13,
+          "frr": 0.26,
+          "threshold": 0.5061039479744683,
+          "accuracy": 0.805,
+          "precision": 0.8505747126436781,
+          "recall": 0.74,
+          "f1": 0.7914438502673796
+        },
+        "svm_only": {
+          "eer": 0.195,
+          "far": 0.13,
+          "frr": 0.26,
+          "threshold": 0.7464824120603015,
+          "accuracy": 0.805,
+          "precision": 0.8505747126436781,
+          "recall": 0.74,
+          "f1": 0.7914438502673796
+        },
+        "lstm_only": {
+          "eer": 0.33999999999999997,
+          "far": 0.39,
+          "frr": 0.29,
+          "threshold": 0.15497420570921042,
+          "accuracy": 0.66,
+          "precision": 0.6454545454545455,
+          "recall": 0.71,
+          "f1": 0.6761904761904762
+        },
+        "uncalibrated": {
+          "eer": 0.445,
+          "far": 0.44,
+          "frr": 0.45,
+          "threshold": -0.11755291955047609,
+          "accuracy": 0.555,
+          "precision": 0.5555555555555556,
+          "recall": 0.55,
+          "f1": 0.5527638190954774
+        }
+      }
+    },
+    {
+      "user": "dsl_s016@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.41500000000000004,
+          "far": 0.43,
+          "frr": 0.4,
+          "threshold": 0.5005448118022198,
+          "accuracy": 0.585,
+          "precision": 0.5825242718446602,
+          "recall": 0.6,
+          "f1": 0.5911330049261084
+        },
+        "svm_only": {
+          "eer": 0.23500000000000001,
+          "far": 0.07,
+          "frr": 0.4,
+          "threshold": 0.714824120603015,
+          "accuracy": 0.765,
+          "precision": 0.8955223880597015,
+          "recall": 0.6,
+          "f1": 0.718562874251497
+        },
+        "lstm_only": {
+          "eer": 0.815,
+          "far": 0.82,
+          "frr": 0.81,
+          "threshold": 0.1344005690329071,
+          "accuracy": 0.185,
+          "precision": 0.18811881188118812,
+          "recall": 0.19,
+          "f1": 0.18905472636815923
+        },
+        "uncalibrated": {
+          "eer": 0.395,
+          "far": 0.39,
+          "frr": 0.4,
+          "threshold": -0.08765749195692263,
+          "accuracy": 0.605,
+          "precision": 0.6060606060606061,
+          "recall": 0.6,
+          "f1": 0.6030150753768845
+        }
+      }
+    },
+    {
+      "user": "dsl_s017@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.155,
+          "far": 0.22,
+          "frr": 0.09,
+          "threshold": 0.511722814241117,
+          "accuracy": 0.845,
+          "precision": 0.8053097345132744,
+          "recall": 0.91,
+          "f1": 0.8544600938967136
+        },
+        "svm_only": {
+          "eer": 0.135,
+          "far": 0.0,
+          "frr": 0.27,
+          "threshold": 0.7464824120603015,
+          "accuracy": 0.865,
+          "precision": 1.0,
+          "recall": 0.73,
+          "f1": 0.8439306358381503
+        },
+        "lstm_only": {
+          "eer": 0.22999999999999998,
+          "far": 0.29,
+          "frr": 0.17,
+          "threshold": 0.15760705555296733,
+          "accuracy": 0.77,
+          "precision": 0.7410714285714286,
+          "recall": 0.83,
+          "f1": 0.7830188679245284
+        },
+        "uncalibrated": {
+          "eer": 0.44999999999999996,
+          "far": 0.47,
+          "frr": 0.43,
+          "threshold": -0.004814613187424932,
+          "accuracy": 0.55,
+          "precision": 0.5480769230769231,
+          "recall": 0.57,
+          "f1": 0.5588235294117646
+        }
+      }
+    },
+    {
+      "user": "dsl_s018@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.345,
+          "far": 0.42,
+          "frr": 0.27,
+          "threshold": 0.5073273488292297,
+          "accuracy": 0.655,
+          "precision": 0.6347826086956522,
+          "recall": 0.73,
+          "f1": 0.6790697674418604
+        },
+        "svm_only": {
+          "eer": 0.245,
+          "far": 0.14,
+          "frr": 0.35,
+          "threshold": 0.735929648241206,
+          "accuracy": 0.755,
+          "precision": 0.8227848101265823,
+          "recall": 0.65,
+          "f1": 0.7262569832402235
+        },
+        "lstm_only": {
+          "eer": 0.45999999999999996,
+          "far": 0.43,
+          "frr": 0.49,
+          "threshold": 0.14608020528749843,
+          "accuracy": 0.54,
+          "precision": 0.5425531914893617,
+          "recall": 0.51,
+          "f1": 0.5257731958762887
+        },
+        "uncalibrated": {
+          "eer": 0.455,
+          "far": 0.46,
+          "frr": 0.45,
+          "threshold": -0.22403727080144065,
+          "accuracy": 0.545,
+          "precision": 0.5445544554455446,
+          "recall": 0.55,
+          "f1": 0.5472636815920399
+        }
+      }
+    },
+    {
+      "user": "dsl_s019@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.445,
+          "far": 0.53,
+          "frr": 0.36,
+          "threshold": 0.5042569177270487,
+          "accuracy": 0.555,
+          "precision": 0.5470085470085471,
+          "recall": 0.64,
+          "f1": 0.5898617511520738
+        },
+        "svm_only": {
+          "eer": 0.18,
+          "far": 0.0,
+          "frr": 0.36,
+          "threshold": 0.75,
+          "accuracy": 0.82,
+          "precision": 1.0,
+          "recall": 0.64,
+          "f1": 0.7804878048780487
+        },
+        "lstm_only": {
+          "eer": 0.69,
+          "far": 0.57,
+          "frr": 0.81,
+          "threshold": 0.13677467784250086,
+          "accuracy": 0.31,
+          "precision": 0.25,
+          "recall": 0.19,
+          "f1": 0.2159090909090909
+        },
+        "uncalibrated": {
+          "eer": 0.44,
+          "far": 0.45,
+          "frr": 0.43,
+          "threshold": -0.13287568864516475,
+          "accuracy": 0.56,
+          "precision": 0.5588235294117647,
+          "recall": 0.57,
+          "f1": 0.5643564356435642
+        }
+      }
+    },
+    {
+      "user": "dsl_s020@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.27,
+          "far": 0.23,
+          "frr": 0.31,
+          "threshold": 0.5008421273010056,
+          "accuracy": 0.73,
+          "precision": 0.75,
+          "recall": 0.69,
+          "f1": 0.71875
+        },
+        "svm_only": {
+          "eer": 0.27,
+          "far": 0.24,
+          "frr": 0.3,
+          "threshold": 0.742964824120603,
+          "accuracy": 0.73,
+          "precision": 0.7446808510638298,
+          "recall": 0.7,
+          "f1": 0.7216494845360825
+        },
+        "lstm_only": {
+          "eer": 0.385,
+          "far": 0.44,
+          "frr": 0.33,
+          "threshold": 0.14076413705938562,
+          "accuracy": 0.615,
+          "precision": 0.6036036036036037,
+          "recall": 0.67,
+          "f1": 0.6350710900473934
+        },
+        "uncalibrated": {
+          "eer": 0.46499999999999997,
+          "far": 0.47,
+          "frr": 0.46,
+          "threshold": -0.17127127519735297,
+          "accuracy": 0.535,
+          "precision": 0.5346534653465347,
+          "recall": 0.54,
+          "f1": 0.5373134328358209
+        }
+      }
+    },
+    {
+      "user": "dsl_s021@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.295,
+          "far": 0.29,
+          "frr": 0.3,
+          "threshold": 0.5069046020230735,
+          "accuracy": 0.705,
+          "precision": 0.7070707070707071,
+          "recall": 0.7,
+          "f1": 0.7035175879396985
+        },
+        "svm_only": {
+          "eer": 0.225,
+          "far": 0.13,
+          "frr": 0.32,
+          "threshold": 0.7363869551570424,
+          "accuracy": 0.775,
+          "precision": 0.8395061728395061,
+          "recall": 0.68,
+          "f1": 0.7513812154696133
+        },
+        "lstm_only": {
+          "eer": 0.42000000000000004,
+          "far": 0.46,
+          "frr": 0.38,
+          "threshold": 0.14916400568120444,
+          "accuracy": 0.58,
+          "precision": 0.5740740740740741,
+          "recall": 0.62,
+          "f1": 0.5961538461538461
+        },
+        "uncalibrated": {
+          "eer": 0.485,
+          "far": 0.48,
+          "frr": 0.49,
+          "threshold": -0.22078522271127687,
+          "accuracy": 0.515,
+          "precision": 0.5151515151515151,
+          "recall": 0.51,
+          "f1": 0.5125628140703518
+        }
+      }
+    },
+    {
+      "user": "dsl_s022@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.135,
+          "far": 0.01,
+          "frr": 0.26,
+          "threshold": 0.48492092399327785,
+          "accuracy": 0.865,
+          "precision": 0.9866666666666667,
+          "recall": 0.74,
+          "f1": 0.8457142857142858
+        },
+        "svm_only": {
+          "eer": 0.14,
+          "far": 0.02,
+          "frr": 0.26,
+          "threshold": 0.7464824120603015,
+          "accuracy": 0.86,
+          "precision": 0.9736842105263158,
+          "recall": 0.74,
+          "f1": 0.8409090909090909
+        },
+        "lstm_only": {
+          "eer": 0.795,
+          "far": 0.79,
+          "frr": 0.8,
+          "threshold": 0.12730393181515356,
+          "accuracy": 0.205,
+          "precision": 0.20202020202020202,
+          "recall": 0.2,
+          "f1": 0.20100502512562815
+        },
+        "uncalibrated": {
+          "eer": 0.41,
+          "far": 0.41,
+          "frr": 0.41,
+          "threshold": -0.10324350774979618,
+          "accuracy": 0.59,
+          "precision": 0.59,
+          "recall": 0.59,
+          "f1": 0.59
+        }
+      }
+    },
+    {
+      "user": "dsl_s024@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.12,
+          "far": 0.02,
+          "frr": 0.22,
+          "threshold": 0.4940433154002022,
+          "accuracy": 0.88,
+          "precision": 0.975,
+          "recall": 0.78,
+          "f1": 0.8666666666666667
+        },
+        "svm_only": {
+          "eer": 0.12,
+          "far": 0.02,
+          "frr": 0.22,
+          "threshold": 0.7324120603015075,
+          "accuracy": 0.88,
+          "precision": 0.975,
+          "recall": 0.78,
+          "f1": 0.8666666666666667
+        },
+        "lstm_only": {
+          "eer": 0.575,
+          "far": 0.57,
+          "frr": 0.58,
+          "threshold": 0.13555268718220143,
+          "accuracy": 0.425,
+          "precision": 0.42424242424242425,
+          "recall": 0.42,
+          "f1": 0.42211055276381915
+        },
+        "uncalibrated": {
+          "eer": 0.37,
+          "far": 0.35,
+          "frr": 0.39,
+          "threshold": -0.036401058754232274,
+          "accuracy": 0.63,
+          "precision": 0.6354166666666666,
+          "recall": 0.61,
+          "f1": 0.6224489795918368
+        }
+      }
+    },
+    {
+      "user": "dsl_s025@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.255,
+          "far": 0.24,
+          "frr": 0.27,
+          "threshold": 0.5028574094421945,
+          "accuracy": 0.745,
+          "precision": 0.7525773195876289,
+          "recall": 0.73,
+          "f1": 0.7411167512690355
+        },
+        "svm_only": {
+          "eer": 0.135,
+          "far": 0.0,
+          "frr": 0.27,
+          "threshold": 0.7394472361809045,
+          "accuracy": 0.865,
+          "precision": 1.0,
+          "recall": 0.73,
+          "f1": 0.8439306358381503
+        },
+        "lstm_only": {
+          "eer": 0.6599999999999999,
+          "far": 0.7,
+          "frr": 0.62,
+          "threshold": 0.14006346650367127,
+          "accuracy": 0.34,
+          "precision": 0.35185185185185186,
+          "recall": 0.38,
+          "f1": 0.3653846153846154
+        },
+        "uncalibrated": {
+          "eer": 0.41500000000000004,
+          "far": 0.43,
+          "frr": 0.4,
+          "threshold": -0.12985920368733828,
+          "accuracy": 0.585,
+          "precision": 0.5825242718446602,
+          "recall": 0.6,
+          "f1": 0.5911330049261084
+        }
+      }
+    },
+    {
+      "user": "dsl_s026@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.30500000000000005,
+          "far": 0.28,
+          "frr": 0.33,
+          "threshold": 0.5058373200072505,
+          "accuracy": 0.695,
+          "precision": 0.7052631578947368,
+          "recall": 0.67,
+          "f1": 0.6871794871794872
+        },
+        "svm_only": {
+          "eer": 0.22499999999999998,
+          "far": 0.1,
+          "frr": 0.35,
+          "threshold": 0.75,
+          "accuracy": 0.775,
+          "precision": 0.8666666666666667,
+          "recall": 0.65,
+          "f1": 0.7428571428571429
+        },
+        "lstm_only": {
+          "eer": 0.41000000000000003,
+          "far": 0.38,
+          "frr": 0.44,
+          "threshold": 0.14409452340689016,
+          "accuracy": 0.59,
+          "precision": 0.5957446808510638,
+          "recall": 0.56,
+          "f1": 0.577319587628866
+        },
+        "uncalibrated": {
+          "eer": 0.42,
+          "far": 0.42,
+          "frr": 0.42,
+          "threshold": -0.08798352728137937,
+          "accuracy": 0.58,
+          "precision": 0.58,
+          "recall": 0.58,
+          "f1": 0.58
+        }
+      }
+    },
+    {
+      "user": "dsl_s027@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.29000000000000004,
+          "far": 0.31,
+          "frr": 0.27,
+          "threshold": 0.5024679991031074,
+          "accuracy": 0.71,
+          "precision": 0.7019230769230769,
+          "recall": 0.73,
+          "f1": 0.7156862745098039
+        },
+        "svm_only": {
+          "eer": 0.20500000000000002,
+          "far": 0.14,
+          "frr": 0.27,
+          "threshold": 0.7394472361809045,
+          "accuracy": 0.795,
+          "precision": 0.8390804597701149,
+          "recall": 0.73,
+          "f1": 0.7807486631016043
+        },
+        "lstm_only": {
+          "eer": 0.605,
+          "far": 0.61,
+          "frr": 0.6,
+          "threshold": 0.13718360746814698,
+          "accuracy": 0.395,
+          "precision": 0.39603960396039606,
+          "recall": 0.4,
+          "f1": 0.3980099502487563
+        },
+        "uncalibrated": {
+          "eer": 0.455,
+          "far": 0.45,
+          "frr": 0.46,
+          "threshold": -0.09548993219461688,
+          "accuracy": 0.545,
+          "precision": 0.5454545454545454,
+          "recall": 0.54,
+          "f1": 0.542713567839196
+        }
+      }
+    },
+    {
+      "user": "dsl_s028@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.235,
+          "far": 0.25,
+          "frr": 0.22,
+          "threshold": 0.5061742270715666,
+          "accuracy": 0.765,
+          "precision": 0.7572815533980582,
+          "recall": 0.78,
+          "f1": 0.768472906403941
+        },
+        "svm_only": {
+          "eer": 0.14,
+          "far": 0.02,
+          "frr": 0.26,
+          "threshold": 0.75,
+          "accuracy": 0.86,
+          "precision": 0.9736842105263158,
+          "recall": 0.74,
+          "f1": 0.8409090909090909
+        },
+        "lstm_only": {
+          "eer": 0.48,
+          "far": 0.5,
+          "frr": 0.46,
+          "threshold": 0.14755156130321306,
+          "accuracy": 0.52,
+          "precision": 0.5192307692307693,
+          "recall": 0.54,
+          "f1": 0.5294117647058824
+        },
+        "uncalibrated": {
+          "eer": 0.38,
+          "far": 0.39,
+          "frr": 0.37,
+          "threshold": -0.015695541400051027,
+          "accuracy": 0.62,
+          "precision": 0.6176470588235294,
+          "recall": 0.63,
+          "f1": 0.6237623762376239
+        }
+      }
+    },
+    {
+      "user": "dsl_s029@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.22999999999999998,
+          "far": 0.22,
+          "frr": 0.24,
+          "threshold": 0.5084076475029711,
+          "accuracy": 0.77,
+          "precision": 0.7755102040816326,
+          "recall": 0.76,
+          "f1": 0.7676767676767676
+        },
+        "svm_only": {
+          "eer": 0.195,
+          "far": 0.14,
+          "frr": 0.25,
+          "threshold": 0.75,
+          "accuracy": 0.805,
+          "precision": 0.8426966292134831,
+          "recall": 0.75,
+          "f1": 0.7936507936507935
+        },
+        "lstm_only": {
+          "eer": 0.33499999999999996,
+          "far": 0.35,
+          "frr": 0.32,
+          "threshold": 0.15235766864762063,
+          "accuracy": 0.665,
+          "precision": 0.6601941747572816,
+          "recall": 0.68,
+          "f1": 0.6699507389162562
+        },
+        "uncalibrated": {
+          "eer": 0.49,
+          "far": 0.49,
+          "frr": 0.49,
+          "threshold": -0.2502735869297199,
+          "accuracy": 0.51,
+          "precision": 0.51,
+          "recall": 0.51,
+          "f1": 0.51
+        }
+      }
+    },
+    {
+      "user": "dsl_s030@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.175,
+          "far": 0.09,
+          "frr": 0.26,
+          "threshold": 0.4901957804991324,
+          "accuracy": 0.825,
+          "precision": 0.891566265060241,
+          "recall": 0.74,
+          "f1": 0.8087431693989071
+        },
+        "svm_only": {
+          "eer": 0.175,
+          "far": 0.09,
+          "frr": 0.26,
+          "threshold": 0.728894472361809,
+          "accuracy": 0.825,
+          "precision": 0.891566265060241,
+          "recall": 0.74,
+          "f1": 0.8087431693989071
+        },
+        "lstm_only": {
+          "eer": 0.675,
+          "far": 0.7,
+          "frr": 0.65,
+          "threshold": 0.12859730452678297,
+          "accuracy": 0.325,
+          "precision": 0.3333333333333333,
+          "recall": 0.35,
+          "f1": 0.3414634146341463
+        },
+        "uncalibrated": {
+          "eer": 0.425,
+          "far": 0.42,
+          "frr": 0.43,
+          "threshold": -0.11703988967927381,
+          "accuracy": 0.575,
+          "precision": 0.5757575757575758,
+          "recall": 0.57,
+          "f1": 0.5728643216080402
+        }
+      }
+    },
+    {
+      "user": "dsl_s031@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.33499999999999996,
+          "far": 0.3,
+          "frr": 0.37,
+          "threshold": 0.4958998302346551,
+          "accuracy": 0.665,
+          "precision": 0.6774193548387096,
+          "recall": 0.63,
+          "f1": 0.6528497409326425
+        },
+        "svm_only": {
+          "eer": 0.33499999999999996,
+          "far": 0.31,
+          "frr": 0.36,
+          "threshold": 0.7396018249740924,
+          "accuracy": 0.665,
+          "precision": 0.6736842105263158,
+          "recall": 0.64,
+          "f1": 0.6564102564102564
+        },
+        "lstm_only": {
+          "eer": 0.5700000000000001,
+          "far": 0.54,
+          "frr": 0.6,
+          "threshold": 0.13676604067646153,
+          "accuracy": 0.43,
+          "precision": 0.425531914893617,
+          "recall": 0.4,
+          "f1": 0.4123711340206186
+        },
+        "uncalibrated": {
+          "eer": 0.47,
+          "far": 0.47,
+          "frr": 0.47,
+          "threshold": -0.21342580034198255,
+          "accuracy": 0.53,
+          "precision": 0.53,
+          "recall": 0.53,
+          "f1": 0.53
+        }
+      }
+    },
+    {
+      "user": "dsl_s032@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.34,
+          "far": 0.34,
+          "frr": 0.34,
+          "threshold": 0.4704477367168348,
+          "accuracy": 0.66,
+          "precision": 0.66,
+          "recall": 0.66,
+          "f1": 0.66
+        },
+        "svm_only": {
+          "eer": 0.33,
+          "far": 0.33,
+          "frr": 0.33,
+          "threshold": 0.6796482412060302,
+          "accuracy": 0.67,
+          "precision": 0.67,
+          "recall": 0.67,
+          "f1": 0.67
+        },
+        "lstm_only": {
+          "eer": 0.41500000000000004,
+          "far": 0.43,
+          "frr": 0.4,
+          "threshold": 0.1437544020519818,
+          "accuracy": 0.585,
+          "precision": 0.5825242718446602,
+          "recall": 0.6,
+          "f1": 0.5911330049261084
+        },
+        "uncalibrated": {
+          "eer": 0.535,
+          "far": 0.53,
+          "frr": 0.54,
+          "threshold": -0.2267764262630081,
+          "accuracy": 0.465,
+          "precision": 0.46464646464646464,
+          "recall": 0.46,
+          "f1": 0.4623115577889447
+        }
+      }
+    },
+    {
+      "user": "dsl_s033@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.135,
+          "far": 0.01,
+          "frr": 0.26,
+          "threshold": 0.4907592075136842,
+          "accuracy": 0.865,
+          "precision": 0.9866666666666667,
+          "recall": 0.74,
+          "f1": 0.8457142857142858
+        },
+        "svm_only": {
+          "eer": 0.13,
+          "far": 0.01,
+          "frr": 0.25,
+          "threshold": 0.7433119632694276,
+          "accuracy": 0.87,
+          "precision": 0.9868421052631579,
+          "recall": 0.75,
+          "f1": 0.8522727272727272
+        },
+        "lstm_only": {
+          "eer": 0.835,
+          "far": 0.83,
+          "frr": 0.84,
+          "threshold": 0.13444086332467053,
+          "accuracy": 0.165,
+          "precision": 0.16161616161616163,
+          "recall": 0.16,
+          "f1": 0.16080402010050251
+        },
+        "uncalibrated": {
+          "eer": 0.4,
+          "far": 0.42,
+          "frr": 0.38,
+          "threshold": 0.04517504430694119,
+          "accuracy": 0.6,
+          "precision": 0.5961538461538461,
+          "recall": 0.62,
+          "f1": 0.607843137254902
+        }
+      }
+    },
+    {
+      "user": "dsl_s034@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.23,
+          "far": 0.18,
+          "frr": 0.28,
+          "threshold": 0.4925599334853402,
+          "accuracy": 0.77,
+          "precision": 0.8,
+          "recall": 0.72,
+          "f1": 0.7578947368421052
+        },
+        "svm_only": {
+          "eer": 0.225,
+          "far": 0.18,
+          "frr": 0.27,
+          "threshold": 0.75,
+          "accuracy": 0.775,
+          "precision": 0.8021978021978022,
+          "recall": 0.73,
+          "f1": 0.7643979057591622
+        },
+        "lstm_only": {
+          "eer": 0.45499999999999996,
+          "far": 0.47,
+          "frr": 0.44,
+          "threshold": 0.14822367543081671,
+          "accuracy": 0.545,
+          "precision": 0.5436893203883495,
+          "recall": 0.56,
+          "f1": 0.5517241379310345
+        },
+        "uncalibrated": {
+          "eer": 0.49,
+          "far": 0.48,
+          "frr": 0.5,
+          "threshold": -0.17791898381335303,
+          "accuracy": 0.51,
+          "precision": 0.5102040816326531,
+          "recall": 0.5,
+          "f1": 0.5050505050505051
+        }
+      }
+    },
+    {
+      "user": "dsl_s035@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.275,
+          "far": 0.31,
+          "frr": 0.24,
+          "threshold": 0.5033717645788884,
+          "accuracy": 0.725,
+          "precision": 0.7102803738317757,
+          "recall": 0.76,
+          "f1": 0.7342995169082127
+        },
+        "svm_only": {
+          "eer": 0.215,
+          "far": 0.18,
+          "frr": 0.25,
+          "threshold": 0.75,
+          "accuracy": 0.785,
+          "precision": 0.8064516129032258,
+          "recall": 0.75,
+          "f1": 0.77720207253886
+        },
+        "lstm_only": {
+          "eer": 0.41000000000000003,
+          "far": 0.4,
+          "frr": 0.42,
+          "threshold": 0.13804220960185545,
+          "accuracy": 0.59,
+          "precision": 0.5918367346938775,
+          "recall": 0.58,
+          "f1": 0.5858585858585857
+        },
+        "uncalibrated": {
+          "eer": 0.525,
+          "far": 0.53,
+          "frr": 0.52,
+          "threshold": -0.20624685844222523,
+          "accuracy": 0.475,
+          "precision": 0.4752475247524752,
+          "recall": 0.48,
+          "f1": 0.47761194029850745
+        }
+      }
+    },
+    {
+      "user": "dsl_s036@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.155,
+          "far": 0.0,
+          "frr": 0.31,
+          "threshold": 0.49819934324975956,
+          "accuracy": 0.845,
+          "precision": 1.0,
+          "recall": 0.69,
+          "f1": 0.8165680473372781
+        },
+        "svm_only": {
+          "eer": 0.155,
+          "far": 0.0,
+          "frr": 0.31,
+          "threshold": 0.7464999717351353,
+          "accuracy": 0.845,
+          "precision": 1.0,
+          "recall": 0.69,
+          "f1": 0.8165680473372781
+        },
+        "lstm_only": {
+          "eer": 0.94,
+          "far": 0.93,
+          "frr": 0.95,
+          "threshold": 0.12505338947895234,
+          "accuracy": 0.06,
+          "precision": 0.05102040816326531,
+          "recall": 0.05,
+          "f1": 0.05050505050505051
+        },
+        "uncalibrated": {
+          "eer": 0.38,
+          "far": 0.38,
+          "frr": 0.38,
+          "threshold": -0.0795006153630835,
+          "accuracy": 0.62,
+          "precision": 0.62,
+          "recall": 0.62,
+          "f1": 0.62
+        }
+      }
+    },
+    {
+      "user": "dsl_s037@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.25,
+          "far": 0.24,
+          "frr": 0.26,
+          "threshold": 0.49986077864932255,
+          "accuracy": 0.75,
+          "precision": 0.7551020408163265,
+          "recall": 0.74,
+          "f1": 0.7474747474747474
+        },
+        "svm_only": {
+          "eer": 0.25,
+          "far": 0.24,
+          "frr": 0.26,
+          "threshold": 0.735929648241206,
+          "accuracy": 0.75,
+          "precision": 0.7551020408163265,
+          "recall": 0.74,
+          "f1": 0.7474747474747474
+        },
+        "lstm_only": {
+          "eer": 0.405,
+          "far": 0.42,
+          "frr": 0.39,
+          "threshold": 0.14229790322088104,
+          "accuracy": 0.595,
+          "precision": 0.5922330097087378,
+          "recall": 0.61,
+          "f1": 0.6009852216748768
+        },
+        "uncalibrated": {
+          "eer": 0.495,
+          "far": 0.51,
+          "frr": 0.48,
+          "threshold": -0.1937670849936861,
+          "accuracy": 0.505,
+          "precision": 0.5048543689320388,
+          "recall": 0.52,
+          "f1": 0.5123152709359606
+        }
+      }
+    },
+    {
+      "user": "dsl_s038@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.205,
+          "far": 0.12,
+          "frr": 0.29,
+          "threshold": 0.5012303235552071,
+          "accuracy": 0.795,
+          "precision": 0.8554216867469879,
+          "recall": 0.71,
+          "f1": 0.7759562841530054
+        },
+        "svm_only": {
+          "eer": 0.19,
+          "far": 0.1,
+          "frr": 0.28,
+          "threshold": 0.742964824120603,
+          "accuracy": 0.81,
+          "precision": 0.8780487804878049,
+          "recall": 0.72,
+          "f1": 0.7912087912087912
+        },
+        "lstm_only": {
+          "eer": 0.625,
+          "far": 0.53,
+          "frr": 0.72,
+          "threshold": 0.13311948340594387,
+          "accuracy": 0.375,
+          "precision": 0.345679012345679,
+          "recall": 0.28,
+          "f1": 0.30939226519337015
+        },
+        "uncalibrated": {
+          "eer": 0.45,
+          "far": 0.46,
+          "frr": 0.44,
+          "threshold": -0.1511649521490972,
+          "accuracy": 0.55,
+          "precision": 0.5490196078431373,
+          "recall": 0.56,
+          "f1": 0.5544554455445545
+        }
+      }
+    },
+    {
+      "user": "dsl_s039@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.215,
+          "far": 0.07,
+          "frr": 0.36,
+          "threshold": 0.4998564991651231,
+          "accuracy": 0.785,
+          "precision": 0.9014084507042254,
+          "recall": 0.64,
+          "f1": 0.7485380116959065
+        },
+        "svm_only": {
+          "eer": 0.215,
+          "far": 0.07,
+          "frr": 0.36,
+          "threshold": 0.7465222518131035,
+          "accuracy": 0.785,
+          "precision": 0.9014084507042254,
+          "recall": 0.64,
+          "f1": 0.7485380116959065
+        },
+        "lstm_only": {
+          "eer": 0.42500000000000004,
+          "far": 0.45,
+          "frr": 0.4,
+          "threshold": 0.12971258571560523,
+          "accuracy": 0.575,
+          "precision": 0.5714285714285714,
+          "recall": 0.6,
+          "f1": 0.5853658536585366
+        },
+        "uncalibrated": {
+          "eer": 0.435,
+          "far": 0.45,
+          "frr": 0.42,
+          "threshold": -0.18616288342205922,
+          "accuracy": 0.565,
+          "precision": 0.5631067961165048,
+          "recall": 0.58,
+          "f1": 0.5714285714285715
+        }
+      }
+    },
+    {
+      "user": "dsl_s040@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.265,
+          "far": 0.3,
+          "frr": 0.23,
+          "threshold": 0.5006327543728768,
+          "accuracy": 0.735,
+          "precision": 0.719626168224299,
+          "recall": 0.77,
+          "f1": 0.7439613526570048
+        },
+        "svm_only": {
+          "eer": 0.14500000000000002,
+          "far": 0.06,
+          "frr": 0.23,
+          "threshold": 0.7113840165933651,
+          "accuracy": 0.855,
+          "precision": 0.927710843373494,
+          "recall": 0.77,
+          "f1": 0.8415300546448088
+        },
+        "lstm_only": {
+          "eer": 0.7050000000000001,
+          "far": 0.74,
+          "frr": 0.67,
+          "threshold": 0.13181725994171184,
+          "accuracy": 0.295,
+          "precision": 0.308411214953271,
+          "recall": 0.33,
+          "f1": 0.3188405797101449
+        },
+        "uncalibrated": {
+          "eer": 0.44,
+          "far": 0.45,
+          "frr": 0.43,
+          "threshold": -0.07885039433896379,
+          "accuracy": 0.56,
+          "precision": 0.5588235294117647,
+          "recall": 0.57,
+          "f1": 0.5643564356435642
+        }
+      }
+    },
+    {
+      "user": "dsl_s041@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.155,
+          "far": 0.04,
+          "frr": 0.27,
+          "threshold": 0.4966799613158974,
+          "accuracy": 0.845,
+          "precision": 0.948051948051948,
+          "recall": 0.73,
+          "f1": 0.824858757062147
+        },
+        "svm_only": {
+          "eer": 0.155,
+          "far": 0.04,
+          "frr": 0.27,
+          "threshold": 0.7394472361809045,
+          "accuracy": 0.845,
+          "precision": 0.948051948051948,
+          "recall": 0.73,
+          "f1": 0.824858757062147
+        },
+        "lstm_only": {
+          "eer": 0.72,
+          "far": 0.65,
+          "frr": 0.79,
+          "threshold": 0.1351818344771572,
+          "accuracy": 0.28,
+          "precision": 0.2441860465116279,
+          "recall": 0.21,
+          "f1": 0.22580645161290322
+        },
+        "uncalibrated": {
+          "eer": 0.4,
+          "far": 0.39,
+          "frr": 0.41,
+          "threshold": -0.049166458985616446,
+          "accuracy": 0.6,
+          "precision": 0.6020408163265306,
+          "recall": 0.59,
+          "f1": 0.5959595959595959
+        }
+      }
+    },
+    {
+      "user": "dsl_s042@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.315,
+          "far": 0.37,
+          "frr": 0.26,
+          "threshold": 0.5087707958266726,
+          "accuracy": 0.685,
+          "precision": 0.6666666666666666,
+          "recall": 0.74,
+          "f1": 0.7014218009478672
+        },
+        "svm_only": {
+          "eer": 0.15999999999999998,
+          "far": 0.03,
+          "frr": 0.29,
+          "threshold": 0.75,
+          "accuracy": 0.84,
+          "precision": 0.9594594594594594,
+          "recall": 0.71,
+          "f1": 0.8160919540229885
+        },
+        "lstm_only": {
+          "eer": 0.45,
+          "far": 0.52,
+          "frr": 0.38,
+          "threshold": 0.15104347474522442,
+          "accuracy": 0.55,
+          "precision": 0.543859649122807,
+          "recall": 0.62,
+          "f1": 0.5794392523364487
+        },
+        "uncalibrated": {
+          "eer": 0.43,
+          "far": 0.43,
+          "frr": 0.43,
+          "threshold": -0.19577824524227538,
+          "accuracy": 0.57,
+          "precision": 0.57,
+          "recall": 0.57,
+          "f1": 0.57
+        }
+      }
+    },
+    {
+      "user": "dsl_s043@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.235,
+          "far": 0.31,
+          "frr": 0.16,
+          "threshold": 0.5011931095053672,
+          "accuracy": 0.765,
+          "precision": 0.7304347826086957,
+          "recall": 0.84,
+          "f1": 0.7813953488372092
+        },
+        "svm_only": {
+          "eer": 0.075,
+          "far": 0.0,
+          "frr": 0.15,
+          "threshold": 0.75,
+          "accuracy": 0.925,
+          "precision": 1.0,
+          "recall": 0.85,
+          "f1": 0.9189189189189189
+        },
+        "lstm_only": {
+          "eer": 0.675,
+          "far": 0.7,
+          "frr": 0.65,
+          "threshold": 0.13374529168398383,
+          "accuracy": 0.325,
+          "precision": 0.3333333333333333,
+          "recall": 0.35,
+          "f1": 0.3414634146341463
+        },
+        "uncalibrated": {
+          "eer": 0.38,
+          "far": 0.41,
+          "frr": 0.35,
+          "threshold": -0.06273750507221476,
+          "accuracy": 0.62,
+          "precision": 0.6132075471698113,
+          "recall": 0.65,
+          "f1": 0.6310679611650486
+        }
+      }
+    },
+    {
+      "user": "dsl_s044@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.145,
+          "far": 0.05,
+          "frr": 0.24,
+          "threshold": 0.49716748324217336,
+          "accuracy": 0.855,
+          "precision": 0.9382716049382716,
+          "recall": 0.76,
+          "f1": 0.8397790055248618
+        },
+        "svm_only": {
+          "eer": 0.145,
+          "far": 0.05,
+          "frr": 0.24,
+          "threshold": 0.7394472361809045,
+          "accuracy": 0.855,
+          "precision": 0.9382716049382716,
+          "recall": 0.76,
+          "f1": 0.8397790055248618
+        },
+        "lstm_only": {
+          "eer": 0.595,
+          "far": 0.59,
+          "frr": 0.6,
+          "threshold": 0.13205703251756062,
+          "accuracy": 0.405,
+          "precision": 0.40404040404040403,
+          "recall": 0.4,
+          "f1": 0.4020100502512563
+        },
+        "uncalibrated": {
+          "eer": 0.42,
+          "far": 0.43,
+          "frr": 0.41,
+          "threshold": -0.061824506691608994,
+          "accuracy": 0.58,
+          "precision": 0.5784313725490197,
+          "recall": 0.59,
+          "f1": 0.5841584158415842
+        }
+      }
+    },
+    {
+      "user": "dsl_s046@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.33,
+          "far": 0.33,
+          "frr": 0.33,
+          "threshold": 0.4749353656968176,
+          "accuracy": 0.67,
+          "precision": 0.67,
+          "recall": 0.67,
+          "f1": 0.67
+        },
+        "svm_only": {
+          "eer": 0.33,
+          "far": 0.33,
+          "frr": 0.33,
+          "threshold": 0.6937185929648241,
+          "accuracy": 0.67,
+          "precision": 0.67,
+          "recall": 0.67,
+          "f1": 0.67
+        },
+        "lstm_only": {
+          "eer": 0.595,
+          "far": 0.58,
+          "frr": 0.61,
+          "threshold": 0.13682230620964847,
+          "accuracy": 0.405,
+          "precision": 0.4020618556701031,
+          "recall": 0.39,
+          "f1": 0.39593908629441626
+        },
+        "uncalibrated": {
+          "eer": 0.515,
+          "far": 0.53,
+          "frr": 0.5,
+          "threshold": -0.21548173231097967,
+          "accuracy": 0.485,
+          "precision": 0.4854368932038835,
+          "recall": 0.5,
+          "f1": 0.49261083743842365
+        }
+      }
+    },
+    {
+      "user": "dsl_s047@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.19,
+          "far": 0.13,
+          "frr": 0.25,
+          "threshold": 0.498672405548934,
+          "accuracy": 0.81,
+          "precision": 0.8522727272727273,
+          "recall": 0.75,
+          "f1": 0.7978723404255319
+        },
+        "svm_only": {
+          "eer": 0.19,
+          "far": 0.13,
+          "frr": 0.25,
+          "threshold": 0.742964824120603,
+          "accuracy": 0.81,
+          "precision": 0.8522727272727273,
+          "recall": 0.75,
+          "f1": 0.7978723404255319
+        },
+        "lstm_only": {
+          "eer": 0.625,
+          "far": 0.75,
+          "frr": 0.5,
+          "threshold": 0.13360948799769096,
+          "accuracy": 0.375,
+          "precision": 0.4,
+          "recall": 0.5,
+          "f1": 0.4444444444444445
+        },
+        "uncalibrated": {
+          "eer": 0.425,
+          "far": 0.42,
+          "frr": 0.43,
+          "threshold": -0.07371447151698352,
+          "accuracy": 0.575,
+          "precision": 0.5757575757575758,
+          "recall": 0.57,
+          "f1": 0.5728643216080402
+        }
+      }
+    },
+    {
+      "user": "dsl_s048@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.18,
+          "far": 0.14,
+          "frr": 0.22,
+          "threshold": 0.50611464059929,
+          "accuracy": 0.82,
+          "precision": 0.8478260869565217,
+          "recall": 0.78,
+          "f1": 0.8125
+        },
+        "svm_only": {
+          "eer": 0.18,
+          "far": 0.14,
+          "frr": 0.22,
+          "threshold": 0.7464824120603015,
+          "accuracy": 0.82,
+          "precision": 0.8478260869565217,
+          "recall": 0.78,
+          "f1": 0.8125
+        },
+        "lstm_only": {
+          "eer": 0.385,
+          "far": 0.38,
+          "frr": 0.39,
+          "threshold": 0.15214788652770012,
+          "accuracy": 0.615,
+          "precision": 0.6161616161616161,
+          "recall": 0.61,
+          "f1": 0.6130653266331657
+        },
+        "uncalibrated": {
+          "eer": 0.45,
+          "far": 0.45,
+          "frr": 0.45,
+          "threshold": -0.19189791070302942,
+          "accuracy": 0.55,
+          "precision": 0.55,
+          "recall": 0.55,
+          "f1": 0.55
+        }
+      }
+    },
+    {
+      "user": "dsl_s049@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.13,
+          "far": 0.11,
+          "frr": 0.15,
+          "threshold": 0.49519224018071806,
+          "accuracy": 0.87,
+          "precision": 0.8854166666666666,
+          "recall": 0.85,
+          "f1": 0.8673469387755102
+        },
+        "svm_only": {
+          "eer": 0.13,
+          "far": 0.11,
+          "frr": 0.15,
+          "threshold": 0.7438726086633797,
+          "accuracy": 0.87,
+          "precision": 0.8854166666666666,
+          "recall": 0.85,
+          "f1": 0.8673469387755102
+        },
+        "lstm_only": {
+          "eer": 0.775,
+          "far": 0.81,
+          "frr": 0.74,
+          "threshold": 0.12450021347241068,
+          "accuracy": 0.225,
+          "precision": 0.24299065420560748,
+          "recall": 0.26,
+          "f1": 0.25120772946859904
+        },
+        "uncalibrated": {
+          "eer": 0.42000000000000004,
+          "far": 0.4,
+          "frr": 0.44,
+          "threshold": -0.16389906949147537,
+          "accuracy": 0.58,
+          "precision": 0.5833333333333334,
+          "recall": 0.56,
+          "f1": 0.5714285714285714
+        }
+      }
+    },
+    {
+      "user": "dsl_s050@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.225,
+          "far": 0.19,
+          "frr": 0.26,
+          "threshold": 0.49600965404331754,
+          "accuracy": 0.775,
+          "precision": 0.7956989247311828,
+          "recall": 0.74,
+          "f1": 0.7668393782383419
+        },
+        "svm_only": {
+          "eer": 0.225,
+          "far": 0.2,
+          "frr": 0.25,
+          "threshold": 0.7394472361809045,
+          "accuracy": 0.775,
+          "precision": 0.7894736842105263,
+          "recall": 0.75,
+          "f1": 0.7692307692307692
+        },
+        "lstm_only": {
+          "eer": 0.395,
+          "far": 0.35,
+          "frr": 0.44,
+          "threshold": 0.14726087361063317,
+          "accuracy": 0.605,
+          "precision": 0.6153846153846154,
+          "recall": 0.56,
+          "f1": 0.5863874345549739
+        },
+        "uncalibrated": {
+          "eer": 0.48,
+          "far": 0.49,
+          "frr": 0.47,
+          "threshold": -0.15892288370602248,
+          "accuracy": 0.52,
+          "precision": 0.5196078431372549,
+          "recall": 0.53,
+          "f1": 0.5247524752475248
+        }
+      }
+    },
+    {
+      "user": "dsl_s051@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.235,
+          "far": 0.23,
+          "frr": 0.24,
+          "threshold": 0.4870767057630483,
+          "accuracy": 0.765,
+          "precision": 0.7676767676767676,
+          "recall": 0.76,
+          "f1": 0.763819095477387
+        },
+        "svm_only": {
+          "eer": 0.23,
+          "far": 0.23,
+          "frr": 0.23,
+          "threshold": 0.735929648241206,
+          "accuracy": 0.77,
+          "precision": 0.77,
+          "recall": 0.77,
+          "f1": 0.7699999999999999
+        },
+        "lstm_only": {
+          "eer": 0.27,
+          "far": 0.24,
+          "frr": 0.3,
+          "threshold": 0.16154327356553122,
+          "accuracy": 0.73,
+          "precision": 0.7446808510638298,
+          "recall": 0.7,
+          "f1": 0.7216494845360825
+        },
+        "uncalibrated": {
+          "eer": 0.52,
+          "far": 0.53,
+          "frr": 0.51,
+          "threshold": -0.21164107399471788,
+          "accuracy": 0.48,
+          "precision": 0.4803921568627451,
+          "recall": 0.49,
+          "f1": 0.4851485148514851
+        }
+      }
+    },
+    {
+      "user": "dsl_s052@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.315,
+          "far": 0.35,
+          "frr": 0.28,
+          "threshold": 0.5028251522637491,
+          "accuracy": 0.685,
+          "precision": 0.6728971962616822,
+          "recall": 0.72,
+          "f1": 0.6956521739130436
+        },
+        "svm_only": {
+          "eer": 0.155,
+          "far": 0.04,
+          "frr": 0.27,
+          "threshold": 0.7429714109191571,
+          "accuracy": 0.845,
+          "precision": 0.948051948051948,
+          "recall": 0.73,
+          "f1": 0.824858757062147
+        },
+        "lstm_only": {
+          "eer": 0.67,
+          "far": 0.68,
+          "frr": 0.66,
+          "threshold": 0.1370821704650706,
+          "accuracy": 0.33,
+          "precision": 0.3333333333333333,
+          "recall": 0.34,
+          "f1": 0.33663366336633666
+        },
+        "uncalibrated": {
+          "eer": 0.435,
+          "far": 0.44,
+          "frr": 0.43,
+          "threshold": -0.12339945920327566,
+          "accuracy": 0.565,
+          "precision": 0.5643564356435643,
+          "recall": 0.57,
+          "f1": 0.5671641791044776
+        }
+      }
+    },
+    {
+      "user": "dsl_s053@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.165,
+          "far": 0.16,
+          "frr": 0.17,
+          "threshold": 0.514478119925964,
+          "accuracy": 0.835,
+          "precision": 0.8383838383838383,
+          "recall": 0.83,
+          "f1": 0.8341708542713568
+        },
+        "svm_only": {
+          "eer": 0.18,
+          "far": 0.1,
+          "frr": 0.26,
+          "threshold": 0.742964824120603,
+          "accuracy": 0.82,
+          "precision": 0.8809523809523809,
+          "recall": 0.74,
+          "f1": 0.8043478260869565
+        },
+        "lstm_only": {
+          "eer": 0.255,
+          "far": 0.24,
+          "frr": 0.27,
+          "threshold": 0.16975965439278592,
+          "accuracy": 0.745,
+          "precision": 0.7525773195876289,
+          "recall": 0.73,
+          "f1": 0.7411167512690355
+        },
+        "uncalibrated": {
+          "eer": 0.49,
+          "far": 0.49,
+          "frr": 0.49,
+          "threshold": -0.19008209060735326,
+          "accuracy": 0.51,
+          "precision": 0.51,
+          "recall": 0.51,
+          "f1": 0.51
+        }
+      }
+    },
+    {
+      "user": "dsl_s054@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.375,
+          "far": 0.42,
+          "frr": 0.33,
+          "threshold": 0.5103591077525416,
+          "accuracy": 0.625,
+          "precision": 0.6146788990825688,
+          "recall": 0.67,
+          "f1": 0.6411483253588517
+        },
+        "svm_only": {
+          "eer": 0.33,
+          "far": 0.28,
+          "frr": 0.38,
+          "threshold": 0.7395640478778756,
+          "accuracy": 0.67,
+          "precision": 0.6888888888888889,
+          "recall": 0.62,
+          "f1": 0.6526315789473685
+        },
+        "lstm_only": {
+          "eer": 0.335,
+          "far": 0.34,
+          "frr": 0.33,
+          "threshold": 0.1581125491416527,
+          "accuracy": 0.665,
+          "precision": 0.6633663366336634,
+          "recall": 0.67,
+          "f1": 0.6666666666666667
+        },
+        "uncalibrated": {
+          "eer": 0.48,
+          "far": 0.48,
+          "frr": 0.48,
+          "threshold": -0.2086878333673915,
+          "accuracy": 0.52,
+          "precision": 0.52,
+          "recall": 0.52,
+          "f1": 0.52
+        }
+      }
+    },
+    {
+      "user": "dsl_s055@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.16999999999999998,
+          "far": 0.16,
+          "frr": 0.18,
+          "threshold": 0.5246126572565558,
+          "accuracy": 0.83,
+          "precision": 0.8367346938775511,
+          "recall": 0.82,
+          "f1": 0.8282828282828283
+        },
+        "svm_only": {
+          "eer": 0.215,
+          "far": 0.08,
+          "frr": 0.35,
+          "threshold": 0.7397287931905593,
+          "accuracy": 0.785,
+          "precision": 0.8904109589041096,
+          "recall": 0.65,
+          "f1": 0.7514450867052024
+        },
+        "lstm_only": {
+          "eer": 0.155,
+          "far": 0.13,
+          "frr": 0.18,
+          "threshold": 0.1889753377907507,
+          "accuracy": 0.845,
+          "precision": 0.8631578947368421,
+          "recall": 0.82,
+          "f1": 0.8410256410256411
+        },
+        "uncalibrated": {
+          "eer": 0.425,
+          "far": 0.44,
+          "frr": 0.41,
+          "threshold": -0.10483281144367851,
+          "accuracy": 0.575,
+          "precision": 0.5728155339805825,
+          "recall": 0.59,
+          "f1": 0.5812807881773399
+        }
+      }
+    },
+    {
+      "user": "dsl_s056@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.27,
+          "far": 0.26,
+          "frr": 0.28,
+          "threshold": 0.5025101721645292,
+          "accuracy": 0.73,
+          "precision": 0.7346938775510204,
+          "recall": 0.72,
+          "f1": 0.7272727272727272
+        },
+        "svm_only": {
+          "eer": 0.27,
+          "far": 0.26,
+          "frr": 0.28,
+          "threshold": 0.7218592964824121,
+          "accuracy": 0.73,
+          "precision": 0.7346938775510204,
+          "recall": 0.72,
+          "f1": 0.7272727272727272
+        },
+        "lstm_only": {
+          "eer": 0.315,
+          "far": 0.27,
+          "frr": 0.36,
+          "threshold": 0.16667750040566878,
+          "accuracy": 0.685,
+          "precision": 0.7032967032967034,
+          "recall": 0.64,
+          "f1": 0.6701570680628273
+        },
+        "uncalibrated": {
+          "eer": 0.475,
+          "far": 0.48,
+          "frr": 0.47,
+          "threshold": -0.16671210626517163,
+          "accuracy": 0.525,
+          "precision": 0.5247524752475248,
+          "recall": 0.53,
+          "f1": 0.527363184079602
+        }
+      }
+    },
+    {
+      "user": "dsl_s057@public.dataset",
+      "variants": {
+        "full_fusion": {
+          "eer": 0.28500000000000003,
+          "far": 0.32,
+          "frr": 0.25,
+          "threshold": 0.5208145327803917,
+          "accuracy": 0.715,
+          "precision": 0.7009345794392523,
+          "recall": 0.75,
+          "f1": 0.7246376811594203
+        },
+        "svm_only": {
+          "eer": 0.31,
+          "far": 0.15,
+          "frr": 0.47,
+          "threshold": 0.7464824120603015,
+          "accuracy": 0.69,
+          "precision": 0.7794117647058824,
+          "recall": 0.53,
+          "f1": 0.6309523809523809
+        },
+        "lstm_only": {
+          "eer": 0.32,
+          "far": 0.34,
+          "frr": 0.3,
+          "threshold": 0.18090636572386062,
+          "accuracy": 0.68,
+          "precision": 0.6730769230769231,
+          "recall": 0.7,
+          "f1": 0.6862745098039216
+        },
+        "uncalibrated": {
+          "eer": 0.475,
+          "far": 0.48,
+          "frr": 0.47,
+          "threshold": -0.19434961493370428,
+          "accuracy": 0.525,
+          "precision": 0.5247524752475248,
+          "recall": 0.53,
+          "f1": 0.527363184079602
+        }
+      }
+    }
+  ],
+  "aggregate": {
+    "full_fusion": {
+      "eer_mean": 0.24215686274509804,
+      "eer_std": 0.07461834199918042,
+      "far_mean": 0.22392156862745097,
+      "frr_mean": 0.2603921568627451,
+      "accuracy_mean": 0.7578431372549019,
+      "precision_mean": 0.778397496907927,
+      "recall_mean": 0.7396078431372547,
+      "f1_mean": 0.7552131536588718
+    },
+    "svm_only": {
+      "eer_mean": 0.20098039215686275,
+      "eer_std": 0.060795539760316084,
+      "far_mean": 0.12039215686274511,
+      "frr_mean": 0.28156862745098044,
+      "accuracy_mean": 0.7990196078431371,
+      "precision_mean": 0.8654058441032306,
+      "recall_mean": 0.7184313725490196,
+      "f1_mean": 0.7822931194858314
+    },
+    "lstm_only": {
+      "eer_mean": 0.4899019607843137,
+      "eer_std": 0.18277139422014305,
+      "far_mean": 0.4949019607843137,
+      "frr_mean": 0.48490196078431375,
+      "accuracy_mean": 0.5100980392156862,
+      "precision_mean": 0.5075496571532545,
+      "recall_mean": 0.5150980392156863,
+      "f1_mean": 0.5103146747053167
+    },
+    "uncalibrated": {
+      "eer_mean": 0.4476470588235295,
+      "eer_std": 0.041080420186775476,
+      "far_mean": 0.45039215686274514,
+      "frr_mean": 0.44490196078431365,
+      "accuracy_mean": 0.5523529411764706,
+      "precision_mean": 0.5520262463862085,
+      "recall_mean": 0.5550980392156862,
+      "f1_mean": 0.5535016879137898
+    }
+  }
+}

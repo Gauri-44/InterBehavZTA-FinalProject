@@ -1,0 +1,144 @@
+id,user_id,condition,status,description,observation_count,created_at,ended_at
+1,2,normal,completed,Chatbot session - normal - 0 responses,0,2026-10-03 20:11:20.562086,2026-10-03 20:11:20.562086
+2,8,normal,completed,Chatbot session - normal - 10 responses,10,2026-10-03 20:26:57.439270,2026-10-03 20:26:57.439270
+3,8,normal,completed,Chatbot session - normal - 10 responses,10,2026-10-03 20:46:12.054341,2026-10-03 20:46:12.054341
+4,8,normal,completed,Chatbot session - normal - 0 responses,0,2026-10-03 20:46:42.785535,2026-10-03 20:46:42.785535
+5,8,normal,completed,Chatbot session - normal - 10 responses,10,2026-10-03 21:02:09.554187,2026-10-03 21:02:09.554187
+6,8,normal,completed,Chatbot session - normal - 10 responses,10,2026-10-03 22:06:11.536048,2026-10-03 22:06:11.536048
+7,8,normal,completed,Chatbot session - normal - 0 responses,0,2026-10-03 22:06:46.815231,2026-10-03 22:06:46.815231
+8,22,malicious,completed,malicious behavior experiment,0,2026-10-06 08:22:24.814540,2026-10-06 08:28:53.070901
+9,62,malicious,active,malicious behavior experiment,0,2026-10-06 08:30:12.012927,
+10,8,normal,completed,"NORMAL typing, telemetry session 4",25,2026-10-06 08:58:35.630495,2026-10-06 08:58:35.630495
+11,8,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-06 09:16:16.416425,2026-10-06 09:16:16.416425
+12,8,normal,completed,Chatbot labeling session - normal - 0 responses,0,2026-10-06 09:16:42.242713,2026-10-06 09:16:42.242713
+13,8,normal,completed,"NORMAL typing, telemetry session 8",42,2026-10-06 09:16:57.323543,2026-10-06 09:16:57.323543
+14,8,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-06 09:19:05.546133,2026-10-06 09:19:05.546133
+15,8,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-06 09:24:21.014413,2026-10-06 09:24:21.014413
+16,8,stress,completed,"STRESS typing, telemetry session 11",23,2026-10-06 09:33:22.686602,2026-10-06 09:33:22.686602
+17,8,normal,completed,Chatbot labeling session - normal - 0 responses,0,2026-10-06 09:34:20.131242,2026-10-06 09:34:20.131242
+18,1,malicious,completed,"MALICIOUS (impostor) typing, telemetry session 13",35,2026-10-06 09:45:32.849048,2026-10-06 09:45:32.849048
+19,8,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-06 09:49:55.091943,2026-10-06 09:49:55.091943
+20,8,stress,completed,"STRESS typing, telemetry session 15",11,2026-10-06 09:56:52.669933,2026-10-06 09:56:52.669933
+21,70,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-06 10:55:44.746637,2026-10-06 10:55:44.746637
+22,71,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-06 11:00:12.982033,2026-10-06 11:19:51.983950
+23,8,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-06 12:13:00.267146,2026-10-06 12:13:00.267146
+24,8,normal,completed,Chatbot labeling session - normal - 0 responses,0,2026-10-06 12:14:34.418734,2026-10-06 12:14:34.418734
+25,70,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-06 12:15:24.331489,2026-10-06 12:15:24.331489
+26,70,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-06 12:36:23.730035,2026-10-06 12:36:23.730035
+27,70,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-06 12:38:33.112134,2026-10-06 12:38:33.112134
+28,70,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-06 12:40:02.727932,2026-10-06 12:40:02.727932
+29,70,normal,completed,Chatbot labeling session - normal - 0 responses,0,2026-10-06 12:58:23.775162,2026-10-06 12:58:23.775162
+30,70,normal,completed,Chatbot labeling session - normal - 0 responses,0,2026-10-06 12:58:33.334034,2026-10-06 12:58:33.334034
+31,70,normal,completed,Chatbot labeling session - normal - 0 responses,0,2026-10-06 12:59:18.734867,2026-10-06 12:59:18.734867
+32,71,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-06 13:10:02.499318,2026-10-06 13:10:02.499318
+33,71,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-06 13:23:47.977460,2026-10-06 13:23:47.977460
+34,72,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-06 13:43:15.557847,2026-10-06 13:43:15.557847
+35,8,normal,completed,Labeled session: normal,0,2026-10-11 10:23:19.163489,2026-10-11 10:24:44.318420
+36,8,normal,completed,Labeled session: normal,0,2026-10-11 10:24:48.134061,2026-10-11 10:25:35.198343
+37,8,stress,completed,Labeled session: stress,0,2026-10-11 10:25:36.760085,2026-10-11 10:25:40.361735
+38,8,stress,completed,Labeled session: stress,0,2026-10-11 10:29:14.708713,2026-10-11 10:31:15.209883
+39,8,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 10:31:12.092634,2026-10-11 10:31:12.092634
+40,8,stress,completed,Labeled session: stress,0,2026-10-11 10:32:06.573232,2026-10-11 10:34:13.469290
+41,8,stress,completed,Labeled session: stress,0,2026-10-11 10:34:43.880388,2026-10-11 10:36:26.816408
+42,8,stress,completed,Labeled session: stress,0,2026-10-11 10:36:57.148361,2026-10-11 10:37:43.961733
+43,8,normal,completed,Chatbot labeling session - normal - 0 responses,0,2026-10-11 10:37:41.903682,2026-10-11 10:37:41.903682
+44,8,stress,completed,Labeled session: stress,0,2026-10-11 10:42:28.833639,2026-10-11 10:43:41.367336
+45,8,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 10:43:39.011619,2026-10-11 10:43:39.011619
+46,8,stress,completed,Labeled session: stress,0,2026-10-11 10:43:55.627597,2026-10-11 10:52:48.104751
+47,71,normal,completed,Labeled session: normal,0,2026-10-11 10:45:25.310865,2026-10-11 10:46:01.388734
+48,71,stress,completed,Labeled session: stress,0,2026-10-11 10:46:04.718166,2026-10-11 10:46:59.916250
+49,71,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 10:46:55.493918,2026-10-11 10:46:55.493918
+50,71,impostor,completed,Labeled session: impostor,0,2026-10-11 10:47:20.642073,2026-10-11 10:47:48.614766
+51,8,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 10:52:44.673729,2026-10-11 10:52:44.673729
+52,8,normal,completed,Labeled session: normal,3,2026-10-11 10:52:53.482444,2026-10-11 10:53:20.749997
+53,8,impostor,completed,Labeled session: impostor,4,2026-10-11 10:53:22.639096,2026-10-11 10:53:55.664378
+54,74,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 10:56:45.976996,2026-10-11 10:56:45.976996
+55,74,normal,completed,Labeled session: normal,4,2026-10-11 10:57:13.751347,2026-10-11 10:57:48.220618
+56,74,stress,completed,Labeled session: stress,6,2026-10-11 10:58:22.666649,2026-10-11 10:59:22.380138
+57,75,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 11:01:35.841742,2026-10-11 11:01:35.841742
+58,75,impostor,completed,Labeled session: impostor,4,2026-10-11 11:01:58.865892,2026-10-11 11:02:49.388255
+59,74,normal,completed,Labeled session: normal,11,2026-10-11 11:10:40.692520,2026-10-11 11:13:55.523726
+60,74,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 11:13:14.222166,2026-10-11 11:13:14.222166
+61,74,stress,completed,Labeled session: stress,9,2026-10-11 11:14:02.611623,2026-10-11 11:15:44.134496
+62,75,impostor,completed,Labeled session: impostor,4,2026-10-11 11:17:00.258994,2026-10-11 11:17:47.144411
+63,75,normal,completed,Labeled session: normal,3,2026-10-11 11:18:04.586336,2026-10-11 11:18:54.841570
+64,75,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 11:18:42.454838,2026-10-11 11:18:42.454838
+65,75,stress,completed,Labeled session: stress,2,2026-10-11 11:18:55.880787,2026-10-11 11:19:15.635568
+66,76,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 11:20:28.354090,2026-10-11 11:20:28.354090
+67,76,normal,completed,Labeled session: normal,5,2026-10-11 11:20:32.737685,2026-10-11 11:21:20.452817
+68,76,stress,completed,Labeled session: stress,3,2026-10-11 11:21:21.814338,2026-10-11 11:21:50.472465
+69,77,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 11:22:54.250298,2026-10-11 11:22:54.250298
+70,77,normal,completed,Labeled session: normal,3,2026-10-11 11:22:56.903748,2026-10-11 11:23:33.289787
+71,77,stress,completed,Labeled session: stress,2,2026-10-11 11:23:34.224455,2026-10-11 11:23:52.713134
+72,78,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 11:24:43.141169,2026-10-11 11:24:43.141169
+73,78,normal,completed,Labeled session: normal,3,2026-10-11 11:24:44.603991,2026-10-11 11:25:15.824721
+74,78,stress,completed,Labeled session: stress,2,2026-10-11 11:25:16.647540,2026-10-11 11:25:36.571509
+75,79,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 11:26:23.491938,2026-10-11 11:26:23.491938
+76,79,normal,completed,Labeled session: normal,3,2026-10-11 11:26:25.916985,2026-10-11 11:26:55.707994
+77,79,stress,completed,Labeled session: stress,1,2026-10-11 11:26:57.083614,2026-10-11 11:27:09.007237
+78,79,normal,completed,Labeled session: normal,1,2026-10-11 11:27:31.229533,2026-10-11 11:27:42.696226
+79,79,stress,completed,Labeled session: stress,2,2026-10-11 11:27:44.155711,2026-10-11 11:28:02.673759
+80,80,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 11:28:45.022708,2026-10-11 11:28:45.022708
+81,80,normal,completed,Labeled session: normal,9,2026-10-11 11:28:47.181496,2026-10-11 11:30:16.182409
+82,80,stress,completed,Labeled session: stress,3,2026-10-11 11:30:17.232709,2026-10-11 11:31:10.727096
+83,81,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 11:32:11.636051,2026-10-11 11:32:11.636051
+84,81,normal,completed,Labeled session: normal,4,2026-10-11 11:32:14.345269,2026-10-11 11:32:56.366403
+85,81,stress,completed,Labeled session: stress,3,2026-10-11 11:32:57.413487,2026-10-11 11:33:23.174347
+86,82,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 11:34:07.267564,2026-10-11 11:34:07.267564
+87,82,normal,completed,Labeled session: normal,6,2026-10-11 11:34:09.512105,2026-10-11 11:36:15.702126
+88,82,stress,completed,Labeled session: stress,6,2026-10-11 11:36:16.953617,2026-10-11 11:38:11.587691
+89,82,normal,completed,Labeled session: normal,0,2026-10-11 11:38:23.256353,2026-10-11 11:38:26.053745
+90,83,normal,completed,Chatbot labeling session - normal - 9 responses,9,2026-10-11 11:39:09.816535,2026-10-11 11:39:09.816535
+91,83,normal,completed,Labeled session: normal,6,2026-10-11 11:39:11.409938,2026-10-11 11:40:55.706123
+92,83,stress,completed,Labeled session: stress,1,2026-10-11 11:40:56.674943,2026-10-11 11:41:09.242517
+93,84,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 11:41:45.489663,2026-10-11 11:41:45.489663
+94,84,impostor,completed,Labeled session: impostor,6,2026-10-11 11:41:47.457666,2026-10-11 11:42:58.894954
+95,75,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 11:47:12.387906,2026-10-11 11:47:12.387906
+96,74,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 12:06:58.591465,2026-10-11 12:06:58.591465
+97,74,normal,completed,Labeled session: normal,11,2026-10-11 12:10:02.376588,2026-10-11 12:12:37.802696
+98,74,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 12:11:35.396596,2026-10-11 12:11:35.396596
+99,74,stress,completed,Labeled session: stress,18,2026-10-11 12:12:39.890080,2026-10-11 12:16:54.122932
+100,74,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 12:16:50.381723,2026-10-11 12:16:50.381723
+101,75,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 12:17:47.883325,2026-10-11 12:17:47.883325
+102,75,impostor,completed,Labeled session: impostor,4,2026-10-11 12:18:08.689947,2026-10-11 12:20:28.457715
+103,74,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 12:18:59.802092,2026-10-11 12:18:59.802092
+104,74,impostor,completed,Labeled session: impostor,3,2026-10-11 12:19:01.437702,2026-10-11 12:20:51.088621
+105,75,normal,completed,Labeled session: normal,1,2026-10-11 12:20:29.330617,2026-10-11 12:20:45.953881
+106,74,normal,completed,Labeled session: normal,7,2026-10-11 12:25:03.759618,2026-10-11 12:28:12.224385
+107,74,stress,completed,Labeled session: stress,13,2026-10-11 12:28:13.166727,2026-10-11 12:37:55.909951
+108,74,normal,completed,Chatbot labeling session - normal - 9 responses,9,2026-10-11 12:29:33.233926,2026-10-11 12:29:33.233926
+109,74,impostor,completed,Labeled session: impostor,15,2026-10-11 12:38:12.825633,2026-10-11 12:42:03.762645
+110,74,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 12:39:08.144014,2026-10-11 12:39:08.144014
+111,74,normal,completed,Labeled session: normal,12,2026-10-11 12:42:05.412630,2026-10-11 12:44:50.163983
+112,75,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 12:44:20.569045,2026-10-11 12:44:20.569045
+113,75,normal,completed,Labeled session: normal,16,2026-10-11 12:44:22.484273,2026-10-11 12:51:44.607174
+114,74,normal,completed,Chatbot labeling session - normal - 4 responses,4,2026-10-11 12:44:37.187670,2026-10-11 12:44:37.187670
+115,74,stress,completed,Labeled session: stress,10,2026-10-11 12:44:51.169705,2026-10-11 12:49:53.601367
+116,75,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 12:49:17.419630,2026-10-11 12:49:17.419630
+117,74,normal,completed,Chatbot labeling session - normal - 0 responses,0,2026-10-11 12:49:51.035980,2026-10-11 12:49:51.035980
+118,74,stress,completed,Labeled session: stress,0,2026-10-11 12:50:04.793346,2026-10-11 12:50:07.586922
+119,74,impostor,completed,Labeled session: impostor,6,2026-10-11 12:50:14.076846,2026-10-11 13:27:48.078303
+120,75,normal,completed,Labeled session: normal,4,2026-10-11 12:52:26.539409,2026-10-11 12:53:50.380799
+121,76,normal,completed,Labeled session: normal,3,2026-10-11 12:52:32.309777,2026-10-11 12:53:14.263542
+122,76,stress,completed,Labeled session: stress,5,2026-10-11 12:53:15.302251,2026-10-11 12:54:31.633871
+123,75,impostor,completed,Labeled session: impostor,3,2026-10-11 12:53:52.212825,2026-10-11 12:56:21.964609
+124,76,stress,completed,Labeled session: stress,8,2026-10-11 12:55:09.874282,2026-10-11 12:57:32.330288
+125,75,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 12:55:32.379738,2026-10-11 12:55:32.379738
+126,75,normal,completed,Labeled session: normal,1,2026-10-11 12:57:01.135532,2026-10-11 12:57:49.534466
+127,76,impostor,completed,Labeled session: impostor,15,2026-10-11 12:57:44.231920,2026-10-11 13:04:07.009014
+128,75,impostor,completed,Labeled session: impostor,12,2026-10-11 12:57:50.607688,2026-10-11 12:59:22.652665
+129,75,stress,completed,Labeled session: stress,15,2026-10-11 12:59:23.714082,2026-10-11 13:03:26.043348
+130,75,stress,completed,Labeled session: stress,5,2026-10-11 13:03:44.387762,2026-10-11 13:05:58.804742
+131,76,impostor,completed,Labeled session: impostor,15,2026-10-11 13:04:34.376363,2026-10-11 13:11:08.071429
+132,75,normal,completed,Chatbot labeling session - normal - 0 responses,0,2026-10-11 13:05:44.200094,2026-10-11 13:05:44.200094
+133,75,normal,completed,Labeled session: normal,4,2026-10-11 13:08:42.796776,2026-10-11 13:09:50.680153
+134,75,impostor,completed,Labeled session: impostor,3,2026-10-11 13:09:52.110537,2026-10-11 13:10:50.233120
+135,75,stress,completed,Labeled session: stress,31,2026-10-11 13:10:51.028172,2026-10-11 13:29:06.355154
+136,76,normal,completed,Labeled session: normal,24,2026-10-11 13:11:12.438444,2026-10-11 13:17:37.751966
+137,77,normal,completed,Labeled session: normal,20,2026-10-11 13:16:50.104982,2026-10-11 13:21:25.544491
+138,76,stress,completed,Labeled session: stress,20,2026-10-11 13:17:39.013241,2026-10-11 13:22:48.394330
+139,77,impostor,completed,Labeled session: impostor,10,2026-10-11 13:21:29.391322,2026-10-11 13:35:56.051526
+140,76,impostor,completed,Labeled session: impostor,10,2026-10-11 13:23:06.562922,2026-10-11 13:25:12.815698
+141,78,normal,completed,Labeled session: normal,1,2026-10-11 13:26:53.807667,2026-10-11 13:28:07.572902
+142,74,normal,completed,Chatbot labeling session - normal - 9 responses,9,2026-10-11 13:27:44.789197,2026-10-11 13:27:44.789197
+143,75,normal,completed,Chatbot labeling session - normal - 10 responses,10,2026-10-11 13:29:02.072121,2026-10-11 13:29:02.072121

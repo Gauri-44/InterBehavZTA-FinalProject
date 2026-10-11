@@ -1,0 +1,3 @@
+id,user_id,session_id,resource_id,trust_score_id,resource_name,trust_score_at_decision,required_threshold,decision,step_up_otp_sent,step_up_verified,step_up_verified_at,decision_timestamp,ip_address,user_agent
+1,8,15,3,,Calendar,0.46160145068907965,0.55,step_up,True,False,,2026-10-03 21:00:28.794413,127.0.0.1,"Mozilla/5.0 (Linux; Android 16; Pixel 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36"
+2,8,15,3,,Calendar,0.3710006762051356,0.55,deny,False,False,,2026-10-03 21:00:40.176514,127.0.0.1,"Mozilla/5.0 (Linux; Android 16; Pixel 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36"
